@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run SVC_Streamlit_1.ipynb
+web: sh setup.sh && streamlit run diabetes_pred.py
