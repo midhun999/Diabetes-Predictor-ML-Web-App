@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import streamlit as st
 
-pickle_in = open("model_test1", "rb")
+pickle_in = open("model_svc_pickle", "rb")
 classifier = pickle.load(pickle_in)
 
 df = pd.read_csv('diabetes.csv')
